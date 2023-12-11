@@ -1,0 +1,13 @@
+# .travis_cicd_pipe.yml
+language: node_js
+node_js:
+  - '14'
+script:
+  - npm test
+deploy:
+  provider: heroku
+  api_key:
+    secure: your_encrypted_api_key
+  app: your_heroku_app_name
+  on:
+    branch: main
