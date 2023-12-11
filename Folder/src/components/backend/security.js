@@ -1,6 +1,6 @@
 // backend/security.js
-const helmet = required('helmet');
+const helmet = require('helmet');
 
 module.exports = (app) => {
-  app.user(helmet());
+  app.use(helmet());
 };
