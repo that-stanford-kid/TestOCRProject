@@ -1,0 +1,17 @@
+{
+	"name": "my-web-app-service",
+	"version": "1.0.0",
+	"description": "Sampling Web Server Application",
+	"dependencies": {
+		- list dependencies 
+	},
+	"devDependencies": {
+		// list dev deps
+	},
+	"scripts": {
+		"start"
+		"test": "jest"
+		// customize scripts here ...
+	},
+	// if other package.json config needed
+}
